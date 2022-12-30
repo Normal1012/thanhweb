@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body,
+input,
+button,
+a {
+    font-family: "Roboto", sans-serif;
+}
+body,
+html {
+    scroll-behavior: smooth;
+}
+.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.wrapper {
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.header-slogan {
+    width: 100%;
+    padding: 2rem 6rem;
+    color: white;
+}
+.header.header-scroll {
+    height: 5rem;
+    transition: all 0.5s ease-in-out;
+}
+.header-cover {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 100px 1.2rem 100px;
+}
+body {
+    background-color: #1a1a1a;
+}
+.header__navigation {
+}
+.header__menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.header-menu-item {
+    color: white;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    padding: 20px 15px 20px 15px;
+    position: relative;
+}
+
+.header-menu-item:hover {
+    color: green;
+    cursor: default;
+}
+.header-menu-item:hover > .header-sub-menu {
+    display: inline-block;
+}
+.header-sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1a1a1a;
+    min-width: 14rem;
+}
+.header-sub-menu-item {
+    padding: 7px 15px;
+}
+.header-sub-menu-item:hover {
+    background-color: green;
+    color: white;
+}
+.introduce {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-style: normal;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-top: 500px;
+    justify-content: center;
+}
+
+.material-symbols-outlined.icon-start {
+    color: green;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.information {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.information > p {
+    text-align: center;
+    max-width: 836px;
+    word-break: break-word;
+}
+
+.highlight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.highlight-book {
+    width: 60rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 1.5rem;
+}
+.highlight-block {
+    padding: 6px;
+    border: 5px solid #cccccc;
+    text-transform: uppercase;
+}
+.highlight-block:hover {
+    border-color: #c2ee92;
+    transition: all 0.5s linear;
+    background-color: #f9fdf4;
+}
+.highlight-read-more {
+    text-decoration: none;
+    color: black;
+}
+.body {
+}
+
+.slide {
+}
+
+.description {
+}
+
+.footer {
+}
+.title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-cover {
+    background-image: url("https://wildlifeatrisk.org/wp-content/uploads/2016/11/bottom-bg.jpg");
+    display: block;
+    justify-content: center;
+    text-align: center;
+    color: green;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+.social-icon {
+    text-decoration: none;
+}
+.fa.fa-facebook-f {
+    color: blue;
+    padding: 6px;
+    border: 5px solid #cccccc;
+}
+.fa.fa-instagram {
+    padding: 6px;
+    border: 5px solid #cccccc;
+}
+.fa.fa-linkedin {
+    padding: 6px;
+    border: 5px solid #cccccc;
+}
+.fa.fa-phone {
+    padding: 6px;
+    border: 5px solid #cccccc;
+}
+.social-icon-item {
+    position: relative;
+    cursor: default;
+}
+.social-sub-menu {
+    display: none;
+}
+.social-icon-item:hover > .social-sub-menu {
+    display: inline-block;
+}
+.header-image {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-style: normal;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 500px;
+}
+.image {
+    padding-bottom: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-1 {
+    height: 414px;
+    width: 466px;
+    max-width: 100%;
+    display: block;
+    opacity: 1;
+}
+.image-1:hover {
+}
+.header-image-link {
+    text-decoration: none;
+    color: white;
+}
+.image-background {
+    padding: 200px 0 80px;
+    background: url("https://wildlifeatrisk.org/wp-content/uploads/2019/01/Fe3XMh0-1.jpg") no-repeat fixed center;
+}
+.header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+.header-image-link.color {
+    color: green;
+}
+.header-menu-item.color {
+    color: green;
+}
+.image-body1 {
+    background-size: 150px;
+    padding: 50px 10px 10px 80px;
+    position: relative;
+    background-position: center center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+.image-text {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 20rem;
+    height: 20rem;
+}
+.image-text > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-text > h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-size: 36px;
+    transform: translate(-50%, -500%);
+    transition: all 0.5s ease-in-out;
+}
+.image-text:hover > h4 {
+    transform: translate(-50%, -50%);
+}
