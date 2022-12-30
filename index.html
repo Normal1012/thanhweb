@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thành website-Trang chủ</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./assets/main.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+
+            <div class="header-cover">
+                <div class="header__icon-cover">
+                    <img src="./assets/Images/Thanh'Life.jpg" alt="image" />
+                </div>
+
+                <nav class="header__navigation">
+                    <ul class="header__menu">
+                        <li class="header-menu-item"><a class="header-image-link color" href="/">Trang chủ</a></li>
+                        <li class="header-menu-item">
+                            <a class="header-image-link" href="#introduce">Giới thiệu</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a class="header-image-link" href="./tour.html">Những chuyến đi</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a class="header-image-link" href="#header-image">Thư viện ảnh</a>
+
+                            <ul class="header__menu header-sub-menu">
+                                <li class="header-menu-item header-sub-menu-item">
+                                    <a class="header-image-link" href="./anhanimal.html">Ảnh Pet</a>
+                                </li>
+                                <li class="header-menu-item header-sub-menu-item">
+                                    <a class="header-image-link" href="./anhplant.html">Ảnh thực vật</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="body">
+            <div class="slide">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <img class="swiper-slide" src="./assets/Images/image.jpg" />
+                        <img class="swiper-slide" src="./assets/Images/image1.jpg" />
+                        <img class="swiper-slide" src="./assets/Images/image3.jpg" alt="anh ve thanh" />
+                        <img class="swiper-slide" src="./assets/Images/Anh 12.jpg" alt="anh ve thanh" />
+                        <img class="swiper-slide" src="./assets/Images/Hoitrai1.jpg" alt="" />
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <div id="introduce" class="introduce">
+                <span class="material-symbols-outlined icon-start"> star </span>
+                Giới thiệu chung
+                <span class="material-symbols-outlined icon-start"> star </span>
+            </div>
+            <div class="information">
+                <p>
+                    Mình là thành.Sinh ngày 10/12/2002.sinh ra và lớn lên ở thành phố hồ chí minh.Đây là trang web mình
+                    tạo ra nhằm chia sẻ sở thích,đời sống thường ngày và lưu giữ những kỷ niệm của mình
+                </p>
+            </div>
+            <div class="highlight">
+                <div class="highlight-book">
+                    <div class="highlight-block">
+                        <h2 class="title">Các trường mình từng học</h2>
+                        <p>
+                            Hướng tới nguồn tài nguyên đa dạng sinh học giàu có, nơi con người sống hoà hợp với
+                            thiên nhiên và các loài hoang dã.
+                        </p>
+
+                    </div>
+                    <div class="highlight-block">
+                        <h2 class="title">Sở thích</h2>
+                        <p>
+                            Hướng tới nguồn tài nguyên đa dạng sinh học giàu có, nơi con người sống hoà hợp với
+                            thiên nhiên và các loài hoang dã.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="footer-cover">
+                <div>Contact me</div>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/thanh.cao.71697092" class="social-icon">
+                        <i class="fa fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/caoductienthanh/" class="social-icon">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/cao-duc-tien-thanh-285654207/" class="social-icon">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:thanh.caofoas@hcmut.edu.vn" class="social-icon">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+
+                    <span class="social-icon-item">
+                        <i class="fa fa-phone"></i>
+                        <span class="social-sub-menu">0972456724</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
